@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags HTML</title>
+    <link rel="stylesheet" href="CSS/index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Assistant:wght@200&family=Comfortaa:wght@300&family=Dosis:wght@200&family=Outfit:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <p>As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página.</p>
+        <p>Abaixo são apresentadas algumas tags:</p>
+        <article class="item">
+            <h2>header</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< header ></span> representa conteúdo introdutório para seu conteúdo de seção ancestral mais próximo ou elemento raiz de seção. O header normalmente contém um grupo de auxiliares introdutórios ou de navegação. Quando o conteúdo de seção ancestral mais próximo ou elemento raiz de seção é o elemento body, então ele se aplica a toda a página.</p>
+            <p>Exemplo de uso de <span class="marcador">< header ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+        < header >
+            < h1 >Título da página< /h1 >
+            < h2 >Subtítulo da página< /h2 >
+        < /header >
+                </pre>
+            </article>
+            <p><h6><span class="cor">Nota:</span> Diferentemente da tag <span class="marcador">< head ></span>, é possível declarar mais de um <span class="marcador">< header ></span> por página.</h6></p> 
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>section</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< section ></span> representa uma seção genérica de um documento ou aplicativo. Uma seção, neste contexto, é um agrupamento temático de conteúdo. Cada seção deve ser identificada, tipicamente incluindo um título (elemento h1-h6) como uma criança do elemento section.</p>
+            <p>Exemplo de uso de <span class="marcador">< section ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+        < section >
+            < h3 >Seção 1< /h1 >
+            < p >Texto< /p >
+        < /section >           
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>article</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< article ></span> representa uma composição completa ou independente em um documento, página, aplicativo ou site e que é, em princípio, distribuível ou reutilizável independentemente, por exemplo, em sindicância. Este pode ser um post no fórum, uma revista ou artigo de jornal, uma entrada no blog, um comentário enviado pelo usuário,
+                um widget interativo ou gadget, ou qualquer outro item independente de conteúdo. Cada article deve ser identificado, tipicamente incluindo um título (elemento h1-h6) como uma criança do elemento article.</p>
+            <p>Exemplo de uso de <span class="marcador">< article ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+        < article >
+            < h3 >Título do artigo 1< /h3 >
+            < p >Texto< /p >
+        < /article >
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>nav</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< nav ></span> representa uma seção de uma página que se conecta a outras páginas ou a partes dentro da página: uma seção com links de navegação.</p>
+            <p>Exemplo de uso de <span class="marcador">< nav ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+        < nav >
+            < ul >
+            < li >< a href=”#”>pagina 1< /a >< /li >
+            < li >< a href=”#”>pagina 2< /a >< /li >
+            < /ul >
+        < /nav >       
+                </pre>
+            </article>
+            <p><h6><span class="cor">Nota:</span> Podemos declarar o <span class="marcador">< nav ></span> em qualquer lugar do documento que contenha uma lista de links, inclusive no <span class="marcador">< header ></span>.</h6></p>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>aside</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< aside ></span> representa uma seção de uma página que consiste em conteúdo tangencialmente relacionado ao conteúdo em torno do elemento de lado, e que poderia ser considerado separado desse conteúdo. Tais seções são frequentemente representadas como barras laterais na tipografia impressa.</p>
+            <p>Exemplo de uso de <span class="marcador">< aside ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+        < aside >
+            < nav >
+                < ul >
+                    < li >Link< /li >
+                < /ul >
+            < /nav >
+        < /aside >
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>main</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< main ></span> representa o conteúdo principal do corpo de um documento ou aplicativo. A área de conteúdo principal consiste em conteúdo diretamente relacionado ou se expande sobre o tópico central de um documento ou funcionalidade central de um aplicativo.</p>
+            <p>Exemplo de uso de <span class="marcador">< main ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+        < main >
+            < h2 >Titulo< /h2 >    
+                < p >Texto< /p >
+                    < article >
+                           < h3 >Subtítulo< /h3 >
+                    < /article >
+        < /main >  
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>figure</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< figure ></span> representa algum conteúdo de fluxo, opcionalmente com uma legenda, que é auto-contida (como uma frase completa) e é tipicamente referenciada como uma única unidade a partir do fluxo principal do documento.</p>
+            <p>Exemplo de uso de <span class="marcador">< figure ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+        < figure >
+                < img src=”http://meusite.com.br/assets/imagem.jpg” alt=”Imagem”>
+        < /figure >
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>footer</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< footer ></span> representa um rodapé para seu conteúdo de secção ancestral mais próximo ou elemento raiz de secção. Um rodapé normalmente contém informações sobre sua seção, como quem escreveu, links para documentos relacionados, dados de direitos autorais e afins.</p>
+            <p>Exemplo de uso de <span class="marcador">< footer ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+        < footer >
+            < p >Escrito por ...< /p >
+            < p >Publicado em 16/06/2020< /p >
+        < /footer > 
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>a</h2>
+            <div class="linha"></div>
+            <p>Se o elemento <span class="marcador">< a ></span> tem um atributo href, então ele representa um hiperlink (uma âncora de hipertexto) rotulado pelo seu conteúdo.</p>
+            <p>Exemplo de uso de <span class="marcador">< a ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+
+
+        < a href=”http://www.site.com.br” alt=”Site”>Site< /a > 
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>em</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< em ></span> representa ênfase de estresse de seu conteúdo.</p>
+            <p>Exemplo de uso de <span class="marcador">< em ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+
+
+        < p >Você < em >tem certeza< /em > que essa definição está correta?< /p >  
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>strong</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< strong ></span> representa forte importância, seriedade ou urgência para seu conteúdo.</p>
+            <p>Exemplo de uso de <span class="marcador">< strong ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+
+        < p >Compreender esses elementos HTML é importante porque
+        < strong >possibilita o desenvolvimento de soluções web modernas< /strong >.< /p >    
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>cite</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< cite ></span> representa uma referência a um trabalho criativo. Ele deve incluir o título da obra ou o nome do autor (pessoa, pessoa ou organização) ou uma referência de URL, ou uma referência em forma abreviada de acordo com as convenções usadas para a adição de metadados de citação.</p>
+            <p>Exemplo de uso de <span class="marcador">< cite ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+        < p >
+            < cite >http://br.site.com/< /cite >.
+        < /p >  
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+        <article class="item">
+            <h2>figcaption</h2>
+            <div class="linha"></div>
+            <p>O elemento <span class="marcador">< figcaption ></span> representa uma legenda ou legenda para o resto do conteúdo do elemento figura pai do elemento de figcapção, se houver.</p>
+            <p>Exemplo de uso de <span class="marcador">< figcaption ></span>:</p><br>
+            <article class="caixa">
+                <pre>
+
+        < figure >
+            < img src=”http://meusite.com.br/assets/imagem.jpg” alt=”Imagem”>
+                < figcaption >Figura 1. Imagem< /figcaption >
+        < /figure >       
+                </pre>
+            </article>
+        </article>
+        <br><br><br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+}
+
+.item h2{
+    color: rgb(37,58,68);
+    font-family: 'Arimo', sans-serif;
+}
+
+.container p{
+    color: rgb(105,105,105);
+    font-family: 'Arimo', sans-serif;
+}
+
+.item p{
+    color: rgb(105,105,105);
+    font-family: 'Arimo', sans-serif;
+}
+
+.item h6{
+    color: rgb(105,105,105);
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.linha{
+    width: 650px;
+    height: 2px;
+    background: rgb(34,139,34);    
+}
+
+.container img {
+    width: 600px;
+    height: 170px;
+}
+
+.item{
+    height: 500px;
+    width: 700px;
+    box-shadow: 0px 0px 0px 0px rgb(17 18 38 / 15%) ;
+    background: rgb(248,248,255);
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.caixa{
+    height: 150px;
+    width: 660px;
+    background-color: rgb(54,54,54);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.caixa pre{
+    color:rgb(245,222,179);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.marcador{
+    box-shadow: 7px;
+	background: rgb(224,255,255);
+	display: inline;
+	padding: 2px;
+    color: rgb(0,139,139);
+    border-radius: 2px;
+}
+
+.cor{
+    color: rgb(0,139,139); 
+}
+
